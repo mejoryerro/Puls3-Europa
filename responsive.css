@@ -5,8 +5,21 @@
 		margin: 0 auto;
 		max-width: 1200px;
 	}
+	aside
+	{
+		width: 300px;
+		z-index: 1;	
+	}
+	div
+	{
+		position: relative;
+		left: 0px;
+		right: 0px;
+	}
+
 	#bienvenida
 	{
+		background: #EFEFEF;
 		display: block;
 		float: right;
 		margin: 0 1em;
@@ -16,6 +29,16 @@
 	{
 		color: #434343;
 	}
+	#bienvenida #actividad
+	{
+		background: #CC6666;
+		color: white;
+		display: block;
+		font-size: 1.2em;
+		padding: 0.2em 0.5em;
+		text-align: center;
+		text-decoration: none;
+	}
 	#bienvenida #mensaje_registro
 	{
 		color: #aaa;
@@ -24,13 +47,35 @@
 	#bienvenida #registro
 	{
 		background: #22BCE0;
+		-moz-box-shadow: 5px 5px 5px #878787;
+		-ms-box-shadow: 5px 5px 5px #878787;
+		-webkit-box-shadow: 5px 5px 5px #878787;
+		box-shadow: 5px 5px 5px #878787;
 		color: white;
 		display: block;
 		font-size: 1.2em;
+		padding: 0.2em 0.5em;
+		text-align: center;
 		text-decoration: none;
 	}
+	
 	#contenido .item:first-of-type
 	{
 		width: 55%;
 	}
+	#contenido .intervencion
+	{
+		border-bottom: 1px #aaa solid;
+	}
+	#contenido .intervencion .contador
+	{
+		background: #CC6666;
+		border-radius: 0.2em;
+		color: white;
+		float: left;
+		margin: 0 0.5em 0 0;
+		padding: 0.2em 0.5em;
+		text-decoration: none;
+	}
+	
 }

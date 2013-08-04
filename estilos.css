@@ -195,6 +195,7 @@ nav #publicar_nav a
 	margin-bottom: 3em;
 	min-height: 128px;
 	position: relative;
+	z-index: -1;
 }
 #contenido .item p
 {
